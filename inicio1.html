@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordThink</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <nav>
+            <div class="menu-icon" id="menu-icon">&#9776;</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Explorar</a></li>
+                <li><a href="#">Notificaciones</a></li>
+                <li><a href="#">Mensajes</a></li>
+            </ul>
+            <div class="profile">
+                <img src="profile-pic.png" alt="Mi Foto de Perfil">
+                <p>Tu nombre de usuario</p>
+            </div>
+        </nav>
+        <div class="sidebar">
+            <div class="profile">
+                <img src="profile-pic.png" alt="Mi Foto de Perfil">
+                <p>Tu nombre de usuario</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Explorar</a></li>
+                <li><a href="#">Notificaciones</a></li>
+                <li><a href="#">Mensajes</a></li>
+            </ul>
+        </div>
+        <main class="word-it">
+            <section class="search-tweet">
+                <input type="text" id="search-input" placeholder="Buscar tweets">
+            </section>
+
+            <section class="tweet-compose">
+                <img src="profile-pic.png" alt="Mi Foto de Perfil">
+                <textarea placeholder="¿Qué está pasando?"></textarea>
+                <button class="ov-btn-slide-top"> Word it!</button>
+            </section>
+    
+            <section class="tweets">
+                <article class="tweet">
+                    <div class="tweet-header">
+                        <img src="profile-pic.png" alt="Foto de Perfil de Usuario">
+                        <h2>Nombre de Usuario</h2>
+                    </div>
+                    <p>Este es un tweet de ejemplo.</p>
+                    <div class="tweet-actions">
+                        <button class="button like-button">Me gusta</button>
+                        <button class="button comment-button">Comentar</button>
+                        <button class="button share-button">Compartir</button>
+                    </div>
+                </article>
+            </section>
+        </main>
+    <script src="script.js"></script>
+</body>
+</html>
